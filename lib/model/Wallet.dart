@@ -1,8 +1,12 @@
+import 'Transaction.dart';
+
 class Wallet {
   final String cinClient;
   final double balance;
   final double overdraftLimit;
   final bool status;
+
+  // List<Transaction> transactions;
 
   const Wallet(this.cinClient, this.balance, this.overdraftLimit, this.status);
 

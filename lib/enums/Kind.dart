@@ -1,0 +1,4 @@
+enum Kind {
+  DEPOSIT,
+  RETRAIT,
+}

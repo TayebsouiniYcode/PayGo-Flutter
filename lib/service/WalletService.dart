@@ -7,7 +7,7 @@ import '../model/Wallet.dart';
 
 class WalletService {
   String addressIp = "192.168.134.206";
-  String cin = "HA194468";
+  String cin = "HA121212";
 
   Future<Wallet> fetchWalletByCin(String _cin) async {
     final response =
